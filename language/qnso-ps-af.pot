@@ -1,0 +1,253 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Quenso - PeepSo Asgaros Forum Integration\n"
+"POT-Creation-Date: 2020-05-12 19:18+0200\n"
+"PO-Revision-Date: 2020-04-28 04:46+0200\n"
+"Last-Translator: Quenso <info@quenso.de>\n"
+"Language-Team: Quenso <info@quenso.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: peepsoasgarosforum.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: classes/configsection.php:22
+msgid ""
+"Change Asgaros Forum profile URL to PeepSo&prime;s. Has no effect if &Prime;"
+"<i>Always link to PeepSo profile</i>&Prime; is set to &Prime;<i>yes</"
+"i>&Prime;. "
+msgstr ""
+
+#: classes/configsection.php:23
+msgid "Change profile URL"
+msgstr ""
+
+#: classes/configsection.php:25
+msgid "Profile integration"
+msgstr ""
+
+#: classes/configsection.php:30
+msgid "All Premium Features"
+msgstr ""
+
+#: classes/configsection.php:30
+msgid "Adds options for mention and like notifications"
+msgstr ""
+
+#: classes/configsection.php:30
+msgid "Adds options to show forum stats of user in PeepSo profiles"
+msgstr ""
+
+#: classes/configsection.php:30
+msgid ""
+"Gives members the ability to change subscription settings inside their "
+"profiles"
+msgstr ""
+
+#: classes/configsection.php:30
+msgid "Gives site owners the ability to use PeepSo toolbar in forum pages"
+msgstr ""
+
+#: classes/configsection.php:30
+msgid "Gives site owners the ability to add forum links to PeepSo navigation"
+msgstr ""
+
+#: classes/configsection.php:33
+msgid "Premium Features"
+msgstr ""
+
+#: classes/configsection.php:33
+msgid "Get the PRO version to use all features of this integration"
+msgstr ""
+
+#: classes/configsection.php:38
+msgid ""
+"Send notifications to the author and subscribers if someone replies to a "
+"topic."
+msgstr ""
+
+#: classes/configsection.php:39
+msgid "New post notifications"
+msgstr ""
+
+#: classes/configsection.php:42
+msgid "Create an activity if someone replies to a topic."
+msgstr ""
+
+#: classes/configsection.php:43
+msgid "New post activity"
+msgstr ""
+
+#: classes/configsection.php:46
+msgid "Show content of the new post in activity."
+msgstr ""
+
+#: classes/configsection.php:47
+msgid "New post activity shows content"
+msgstr ""
+
+#: classes/configsection.php:50
+msgid "Create an activity if someone create a new topic."
+msgstr ""
+
+#: classes/configsection.php:51
+msgid "New topic activity"
+msgstr ""
+
+#: classes/configsection.php:54
+msgid "Show content of the first topic post in activity."
+msgstr ""
+
+#: classes/configsection.php:55
+msgid "New topic activity shows content"
+msgstr ""
+
+#: classes/configsection.php:57
+msgid "Activity stream and notifications"
+msgstr ""
+
+#: classes/configsection.php:63
+msgid ""
+"Clean up all Asgaros Forum activities, notifications and config settings in "
+"PeepSo on deactivation. </br><b><font color=\"red\">Be careful!</b> All data "
+"will be deleted after deactivation!</font>"
+msgstr ""
+
+#: classes/configsection.php:64
+msgid "Clean up PeepSo"
+msgstr ""
+
+#: classes/configsection.php:66
+msgid "Uninstall"
+msgstr ""
+
+#: classes/mail.php:35
+msgid "New forum post in topic"
+msgstr ""
+
+#: classes/mail.php:36
+msgid "This will be sent when a user replied to another user's forum topic."
+msgstr ""
+
+#: classes/mail.php:38
+msgid "New forum post in subscribed topic"
+msgstr ""
+
+#: classes/mail.php:39
+msgid ""
+"This will be sent when a user replied to another user's subscribed forum "
+"topic."
+msgstr ""
+
+#: install/activate.php:35
+msgid ""
+"Hello {userfirstname},\n"
+"\n"
+"{fromfirstname} replied on your topic!\n"
+"\n"
+"You can see this post here:\n"
+"{permalink}\n"
+"\n"
+"Thank you."
+msgstr ""
+
+#: install/activate.php:43
+msgid ""
+"Hello {userfirstname},\n"
+"\n"
+"{fromfirstname} replied on a subscribed topic!\n"
+"\n"
+"You can see this post here:\n"
+"{permalink}\n"
+"\n"
+"Thank you."
+msgstr ""
+
+#: peepsoasgarosforum.php:90
+#, php-format
+msgid ""
+"The version of %1$s plugin hasn&rsquo;t been testet with actual version of "
+"PeepSo and can cause errors. Please check for updates on %1$s."
+msgstr ""
+
+#: peepsoasgarosforum.php:91
+#, php-format
+msgid "last testet: %s"
+msgstr ""
+
+#: peepsoasgarosforum.php:103
+#, php-format
+msgid ""
+"The %s plugin requires the PeepSo and Asgaros Forum plugins to be installed "
+"and activated."
+msgstr ""
+
+#: peepsoasgarosforum.php:128
+msgid "Get PRO version of this plugin"
+msgstr ""
+
+#: peepsoasgarosforum.php:216
+#, php-format
+msgid "replied to your topic: %s"
+msgstr ""
+
+#: peepsoasgarosforum.php:230
+#, php-format
+msgid "replied to a subscribed topic: %s"
+msgstr ""
+
+#: peepsoasgarosforum.php:354
+#, php-format
+msgid "replied to a topic: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: peepsoasgarosforum.php:358
+#, php-format
+msgid "created a new topic: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: peepsoasgarosforum.php:367
+msgid "shared a forum activity"
+msgstr ""
+
+#: peepsoasgarosforum.php:381
+msgid "Someone replies to your topic"
+msgstr ""
+
+#: peepsoasgarosforum.php:386
+msgid "Someone replies to a subscribed topic"
+msgstr ""
+
+#: peepsoasgarosforum.php:393
+msgid "Forum"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo - Asgaros Forum Integration by Quenso"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://quenso.de/plugin/peepso-asgaros-forum-integration-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Connect PeepSo with Asgaros Forum."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Quenso"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://quenso.de"
+msgstr ""
